@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
 import menuImage from '../../assets/header/header_image.jpg';
-import menuImage2 from '../../assets/header/header_image_02.jpg';
+ç
 
 
 const Header = () => {
