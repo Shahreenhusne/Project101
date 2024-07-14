@@ -7,7 +7,7 @@
 }
 body{
   min-height: 100vh;
-  background-color: #FCFCFC;
+  background-color: #49557E;
 }
 a{
   text-decoration: none;
@@ -16,7 +16,7 @@ a{
 hr{
   border: none;
   height: 1px;
-  background-color: #A9A9A9;
+  background-color: #f9ce69;
 }
 .app-content{
   display: flex;

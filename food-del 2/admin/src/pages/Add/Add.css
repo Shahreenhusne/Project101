@@ -2,7 +2,7 @@
     width: 70%;
     margin-left: max(5vw,25px);
     margin-top: 50px;
-    color: #6D6D6D;
+    color: #49557E;
     font-size: 16px;
 }
 .add form{
@@ -29,7 +29,7 @@
     max-width: 120px;
     border: none;
     padding: 10px;
-    background-color: black;
-    color: white;
+    background-color: #f9ce69;
+    color: black;
     cursor: pointer;
 }
