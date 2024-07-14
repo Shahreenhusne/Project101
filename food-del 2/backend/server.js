@@ -31,3 +31,6 @@ app.get("/", (req, res) => {
   });
 
 app.listen(port, () => console.log(`Server started on http://localhost:${port}`))
+
+
+// mongodb+srv://FoodAppProject:ziadd9h4ORRBWntB@cluster0.hyg2bw7.mongodb.net/?
