@@ -1,12 +1,9 @@
-
-import React, { useState, useEffect } from 'react';
-import './Header.css';
-import menuImage from '../../assets/header/header_image.jpg';
-ç
-
+import React, { useState, useEffect } from "react";
+import "./Header.css";
+import menuImage from "../../assets/header/header_image.jpg";
 
 const Header = () => {
-  const words = ['Order', 'Have', 'Enjoy'];
+  const words = ["Order", "Have", "Enjoy"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
@@ -15,23 +12,30 @@ const Header = () => {
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [words.length]);
-    return (
-        <div className='header'>
-           <div className='header-contents'>
-            <h1>{words[currentWordIndex]}</h1>
-            <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
-           </div>
-           <div className='header-images'>
-             <img className='img' src={menuImage} alt="Image in Box 2"/>
-           </div>
-        </div>
-    )
-}
+  return (
+    <div className="header">
+      <div className="header-contents">
+        <h1>{words[currentWordIndex]}</h1>
+        <p>
+          Choose from a diverse menu featuring a delectable array of dishes
+          crafted with the finest ingredients and culinary expertise. Our
+          mission is to satisfy your cravings and elevate your dining
+          experience, one delicious meal at a time.
+        </p>
+      </div>
+      <div className="header-images">
+        <img className="img" src={menuImage} alt="Image in Box 2" />
+      </div>
+    </div>
+  );
+};
 
-export default Header
+export default Header;
 
-{/* <div className='header-contents'>
+{
+  /* <div className='header-contents'>
                 <h2>Order your favourite food here</h2>
                 <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.</p>
                 <button>View Menu</button>
-            </div> */}
+            </div> */
+}
